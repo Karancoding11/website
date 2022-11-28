@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background: url(/assets/back.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    background-attachment: fixed;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-attachment: fixed;
+   
+}
+
+header {
+    padding: 20px;
+    /* background-color: rgb(17, 124, 143); */
+    background-image:url(/assets/balaji-travel-agency-vidhyadhar-nagar-jaipur-travel-agents-d74g4z0an5.webp);
+    background-size: inherit;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    
+}
+
+main {
+    
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+section:nth-child(even) {
+    background-color: aliceblue;
+}
+
+section {
+    min-height: 50vh;
+    background-color: aliceblue;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+/* section h5 {
+    margin: 40px;
+    
+} */
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+h2{
+    font-size: 45px;
+   color: rgb(17, 124, 143);
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: #665f5f;
+    padding: 5%;
+}
+h4{
+    font-size: 35px;
+    color: rgb(17, 124, 143);
+}
+ul{
+    font-size: 25px;
+    text-align:justify ;
+    padding: 5%;
+    padding-top: 0%;
+    
+}
+.Contain{
+    background-color: aliceblue;
+    height: fit-content;
+
+}
+.contain{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.rate{
+    width: 25%;
+    height: 80%;
+    text-align: center;
+    font-size: large;
+    
+    background-color:rgb(17, 124, 143) ;
+    
+   margin: 20px 15px;
+   border: 2px solid rgb(17, 124, 143);
+   border-radius: 4px;
+    
+}
+.Rate{
+    text-align: center;
+    font-size: large;
+    width: 25%;
+    height: 70%;
+    
+    background-color:rgb(17, 124, 143) ;
+    margin: 20px 15px;
+    border-radius: 4px;
+    
+    
+    
+}
+footer{
+    position: absolute;
+    margin-bottom: 0%;
+    width: 100%;
+}
+
+p{
+    font-size: 24px;
+}
+.align-right{
+    margin-left: 0;
+}
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction:column ;
+    }
+    .rate , .Rate{
+        width: 200px;
+        height: 600px;
+    }
+    .Contain{
+        height: fit-content;
+    }
+}
